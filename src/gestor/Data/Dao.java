@@ -35,9 +35,9 @@ public class Dao {
     private Usuario usuario(ResultSet rs) {
         try {
             Usuario u = new Usuario();
-            u.setId(rs.getString(" Usuario "));
-            u.setPssword(rs.getString(" Password "));
-            u.setPuesto(rs.getString(" Puesto "));
+            u.setId(rs.getString("idUsuario"));
+            u.setPssword(rs.getString("pssword"));
+            u.setPuesto(rs.getString("puesto"));
             return u;
         } catch (SQLException ex) {
             return null;// esto es una prueba
