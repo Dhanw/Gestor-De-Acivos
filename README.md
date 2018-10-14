@@ -1,2 +1,2 @@
-# Gestor-De-Acivos
+# Gestor-De-Activos
 Prub.guit.progra.III
